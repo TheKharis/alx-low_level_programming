@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-
+char *rot13(char *);
 char *leet(char *);
 char *cap_string(char *);
 void positive_or_negative(int i);
