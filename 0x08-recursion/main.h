@@ -4,7 +4,10 @@
 #include <stdio.h>
 
 
-int my_pal(char *s, int l);
+int strlen_no_wilds(char *str);
+void iterate_wild(char **wildstr);
+char *postfix_match(char *str, char *postfix);
+int wildcmp(char *s1, char *s2);
 int get_length(char *s);
 int is_palindrome(char *s);
 int is_prime_number(int n);
