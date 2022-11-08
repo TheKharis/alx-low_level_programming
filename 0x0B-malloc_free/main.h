@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-
+char *_strdup(char *str);
 char *create_array(unsigned int size, char c);
 void set_string(char **s, char *to);
 void print_diagsums(int *a, int size);
